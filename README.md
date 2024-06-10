@@ -28,3 +28,6 @@ Módulo golang com validações diversas de documentos e especificidades do Bras
 
 ## en
 Golang module with various validations of documents and specificities of Brazil. Features included:
+
+#### Publishing a module:
+[https://go.dev/doc/modules/publishing](https://go.dev/doc/modules/publishing)
