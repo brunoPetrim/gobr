@@ -2,6 +2,7 @@
 
 ## pt-br
 Módulo golang com validações diversas de documentos e especificidades do Brasil. Funcionalidades presentes:
+
 - [x] Validação de CPF
 - [x] Validação de CNPJ
 - [ ] Formatação de CPF
@@ -18,6 +19,7 @@ Módulo golang com validações diversas de documentos e especificidades do Bras
 - [ ] Gerador de PIS/PASEP válido para testes
 - [ ] Validação de Título de Eleito
 - [ ] Geração de Título de Eleitor válido para testes
+- [ ] Validação de Placa
 - [ ] Consulta CEP (fonte: BrasilAberto)
 - [ ] Consulta CEP (fonte: ViaCEP)
 - [ ] Consulta CEP (fonte: OpenCEP)
@@ -57,6 +59,7 @@ func main() {
 
 ## en
 Golang module with various validations of documents and specificities of Brazil. Features included:
+
 - [x] CPF Validation
 - [x] CNPJ Validation
 - [ ] CPF Formatting
@@ -73,6 +76,7 @@ Golang module with various validations of documents and specificities of Brazil.
 - [ ] PIS/PASEP Generation (valid for tests)
 - [ ] Voter ID Validation
 - [ ] Voter ID Generation (valid for tests)
+- [ ] Plate Validation
 - [ ] Zip Code (CEP) Query (source: BrasilAberto)
 - [ ] Zip Code (CEP) Query (source: ViaCEP)
 - [ ] Zip Code (CEP) Query (source: OpenCEP)
