@@ -1,6 +1,7 @@
 # gobr
 
 ## pt-br
+
 Módulo golang com validações diversas de documentos e especificidades do Brasil. Funcionalidades presentes:
 
 - [x] Validação de CPF
@@ -31,6 +32,7 @@ Módulo golang com validações diversas de documentos e especificidades do Bras
 ### Instalação
 
 Use go get
+
 ```sh
 go get github.com/brunoPetrim/gobr
 ```
@@ -41,24 +43,25 @@ go get github.com/brunoPetrim/gobr
 package main
 
 import (
-	"fmt"
+  "fmt"
 
-	gobr "github.com/brunoPetrim/gobr/validation"
+  gobr "github.com/brunoPetrim/gobr/validation"
 )
 
 func main() {
 
-	// Validações
-	fmt.Println(gobr.IsCPFValid(""))
-	fmt.Println(gobr.IsCNPJValid(""))
-	fmt.Println(gobr.IsCNHValid(""))
-	fmt.Println(gobr.IsRENAVANValid(""))
-	fmt.Println(gobr.IsPlateValid(""))
+  // Validações
+  fmt.Println(gobr.IsCPFValid(""))  
+  fmt.Println(gobr.IsCNPJValid(""))
+  fmt.Println(gobr.IsCNHValid(""))
+  fmt.Println(gobr.IsRENAVANValid(""))
+  fmt.Println(gobr.IsPlateValid(""))
 
 }
 ```
 
 ## en
+
 Golang module with various validations of documents and specificities of Brazil. Features included:
 
 - [x] CPF Validation
@@ -89,6 +92,7 @@ Golang module with various validations of documents and specificities of Brazil.
 ### Installation
 
 Use go get
+
 ```sh
 go get github.com/brunoPetrim/gobr
 ```
@@ -99,22 +103,23 @@ go get github.com/brunoPetrim/gobr
 package main
 
 import (
-	"fmt"
+  "fmt"
 
-	gobr "github.com/brunoPetrim/gobr/validation"
+  gobr "github.com/brunoPetrim/gobr/validation"
 )
 
 func main() {
 
-	// Validations
-	fmt.Println(gobr.IsCPFValid(""))
-	fmt.Println(gobr.IsCNPJValid(""))
-	fmt.Println(gobr.IsCNHValid(""))
-	fmt.Println(gobr.IsRENAVANValid(""))
-	fmt.Println(gobr.IsPlateValid(""))
+  // Validations
+  fmt.Println(gobr.IsCPFValid(""))
+  fmt.Println(gobr.IsCNPJValid(""))
+  fmt.Println(gobr.IsCNHValid(""))
+  fmt.Println(gobr.IsRENAVANValid(""))
+  fmt.Println(gobr.IsPlateValid(""))
 
 }
 ```
 
-#### Publishing a module:
+#### Publishing a module
+
 [https://go.dev/doc/modules/publishing](https://go.dev/doc/modules/publishing)
