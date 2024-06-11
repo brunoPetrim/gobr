@@ -43,16 +43,17 @@ package main
 import (
 	"fmt"
 
-	"github.com/brunoPetrim/gobr"
+	gobr "github.com/brunoPetrim/gobr/validation"
 )
 
 func main() {
 
 	// Validações
-	fmt.Println(gobr.isCPFValid(""))
-	fmt.Println(gobr.isCNPJValid(""))
-	fmt.Println(gobr.isCNHValid(""))
-	fmt.Println(gobr.isRENAVANValid(""))
+	fmt.Println(gobr.IsCPFValid(""))
+	fmt.Println(gobr.IsCNPJValid(""))
+	fmt.Println(gobr.IsCNHValid(""))
+	fmt.Println(gobr.IsRENAVANValid(""))
+	fmt.Println(gobr.IsPlateValid(""))
 
 }
 ```
@@ -100,16 +101,17 @@ package main
 import (
 	"fmt"
 
-	"github.com/brunoPetrim/gobr"
+	gobr "github.com/brunoPetrim/gobr/validation"
 )
 
 func main() {
 
 	// Validations
-	fmt.Println(gobr.isCPFValid(""))
-	fmt.Println(gobr.isCNPJValid(""))
-	fmt.Println(gobr.isCNHValid(""))
-	fmt.Println(gobr.isRENAVANValid(""))
+	fmt.Println(gobr.IsCPFValid(""))
+	fmt.Println(gobr.IsCNPJValid(""))
+	fmt.Println(gobr.IsCNHValid(""))
+	fmt.Println(gobr.IsRENAVANValid(""))
+	fmt.Println(gobr.IsPlateValid(""))
 
 }
 ```

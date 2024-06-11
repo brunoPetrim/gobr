@@ -8,8 +8,8 @@ var (
 	renavamAcc = []int{3, 2, 9, 8, 7, 6, 5, 4, 3, 2}
 )
 
-// IsRenavanValid verifies if the given string is a valid RENAVAM document.
-func IsRenavanValid(renavan string) bool {
+// IsRENAVANValid verifies if the given string is a valid RENAVAM document.
+func IsRENAVANValid(renavan string) bool {
 	if len(renavan) != 11 {
 		return false
 	}
